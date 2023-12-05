@@ -7,9 +7,7 @@ public class StoneGameIV2 {
 
 	}
 
-
-
-	Boolean[] dp=new Boolean[100000+1]; ///creating a dynamic boolean array for storing the already calculated n
+	static Boolean[] dp=new Boolean[100000+1]; ///creating a dynamic boolean array for storing the already calculated n
 	
 	
 	public static boolean winnerSquareGame(int n) {
