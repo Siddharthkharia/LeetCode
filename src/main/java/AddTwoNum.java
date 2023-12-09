@@ -21,27 +21,59 @@ public class AddTwoNum {
 		ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 	}
 
-
 	public ListNode addTwoNumbers (ListNode l1, ListNode l2) {
-		ListNode l3 = new ListNode(0);
-		int carry=0;
+		ListNode dummy = new ListNode(0);
+		ListNode curr = dummy;
+		int carry =0;
 
-		while(l1!=null || l2!=null) {
-
-			int num1=((l1!=null)?l1.val:0);
-			int num2=((l2!=null)?l2.val:0);
-			int sum=num1+num2+carry;
+		while(l1!=null || l2!=null || carry>=1){
+			int sum=0;
+			if(l1!=null){
+				sum=sum+ l1.val;
+				l1=l1.next;
+			}
+			if(l2!=null){
+				sum=sum+l2.val;
+				l2=l2.next;
+			}
+			sum=sum+carry;
 
 			carry=sum/10;
 
-			l3.next = new ListNode(sum%10);
-			l3=l3.next;
+			ListNode node = new ListNode(sum%10);
+			curr.next=node;
+			curr = curr.next;
 		}
+		return dummy.next;
+	}
 
-		if(carry>0) {
-			l3.next = new ListNode(carry);
+	public ListNode createNode(String number){
+		ListNode l = new ListNode();
+		int len=number.length();
+		if(len==0){
+			return null;
+		}else{
+			if(len==1){
+				int parseInt = number.charAt(0);
+				l.val = parseInt;
+				return l;
+			}else{
+				int parseInt = number.charAt(0);
+				l.val = parseInt;
+				l.next = createNode(number.substring(1,number.length()-1));
+				return l;
+			}
 		}
+	}
 
-		return l3.next;
+	public static int createNum(ListNode listNode){
+		int num=0;
+		if (listNode.next!=null){
+			num=num*10+listNode.val;
+			createNum(listNode.next);
+			return num;
+		}else{
+			return listNode.val;
+		}
 	}
 }
