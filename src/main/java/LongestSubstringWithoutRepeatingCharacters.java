@@ -16,7 +16,6 @@ public static Stack<String> stRemover(Stack<String> st,int till) {
 //		LongestSubstringWithoutRepeatingCharacters ob = new LongestSubstringWithoutRepeatingCharacters();
 		
 		String s="abcabcbb";
-		
 
 //		System.out.println(s.length());
 		
@@ -24,8 +23,6 @@ public static Stack<String> stRemover(Stack<String> st,int till) {
 		
 //		System.out.println(lengthOfLongestSubstring(s));
 		System.out.println(testStack(s));
-		
-		
 
 	}
 
@@ -70,8 +67,7 @@ public static Stack<String> stRemover(Stack<String> st,int till) {
 		
 		Stack<String> st = new Stack<String>();
 		int len=0;
-		
-		
+
 		for(int i=0;i<s.length();i++) {
 			
 			String c=s.substring(i, i+1);

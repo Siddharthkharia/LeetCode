@@ -1,5 +1,6 @@
 package easy;
 
+import java.util.Collections;
 import java.util.Stack;
 
 public class RemoveDuplicatesSortedArray {
