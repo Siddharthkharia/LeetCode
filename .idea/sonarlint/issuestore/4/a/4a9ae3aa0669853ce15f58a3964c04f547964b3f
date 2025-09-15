@@ -1,0 +1,8 @@
+
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(›¯’g8¼˜îäœ2
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.( È‰â8½˜îäœ2
+d
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(‚ë‹8¾˜îäœ2
+l
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(›¯’g8Õ˜îäœ2

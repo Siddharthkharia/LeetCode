@@ -1,0 +1,13 @@
+
+>
+java:S5411"(Use a primitive boolean expression here.(…»Ì¿
+0
+java:S1220""Move this file to a named package.
+M
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(çåþ¦úÿÿÿÿ
+L
+java:S1854%"6Remove this useless assignment to local variable "s2".(Î£áŽ
+V	java:S125-"<This block of commented-out lines of code should be removed.(”þ¿žûÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

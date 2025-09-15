@@ -1,0 +1,21 @@
+
+t
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ô¡Ûöıÿÿÿÿ
+t
+java:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š„„ùÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·½ç“ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ıı½üøÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ŠÔ®Ä
+@	java:S106"+Replace this use of System.out by a logger.(ôÒÈà
+E	java:S106"+Replace this use of System.out by a logger.(åö¡½úÿÿÿÿ
+h	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£­ÙÅşÿÿÿÿ
+E	java:S106'"+Replace this use of System.out by a logger.(Ò™Â¿øÿÿÿÿ
+E	java:S1063"+Replace this use of System.out by a logger.(Ûéæ£ıÿÿÿÿ
+E	java:S106="+Replace this use of System.out by a logger.(å‡¿öüÿÿÿÿ
+E	java:S106D"+Replace this use of System.out by a logger.(åö¡½úÿÿÿÿ
+W
+java:S1126K"AReplace this if-then-else statement by a single return statement.(·Óâ»
+@	java:S106X"+Replace this use of System.out by a logger.(ûåóˆ
+@	java:S106]"+Replace this use of System.out by a logger.(äã–

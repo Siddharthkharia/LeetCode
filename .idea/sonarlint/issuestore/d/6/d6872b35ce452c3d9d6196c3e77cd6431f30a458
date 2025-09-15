@@ -1,0 +1,12 @@
+
+0
+java:S1220""Move this file to a named package.
+M
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+E	java:S106
+"+Replace this use of System.out by a logger.(ŒÍ¿€úÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ßþ°õýÿÿÿÿ
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(èŒµ¨øÿÿÿÿ
+B
+java:S1128",Remove this unused import 'java.util.regex'.(£‘¬Þ

@@ -1,0 +1,12 @@
+
+O
+java:S2130
+"9Use "Integer.parseInt" for this string-to-int conversion.(©şÁœ
+:
+java:S2153"Remove the boxing to "Integer".(©Å²”ıÿÿÿÿ
+A
+java:S2201",The return value of "parseInt" must be used.(ëÍ»X
+@
+java:S2201"*The return value of "charAt" must be used.(éØ«¨
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Áüâ•

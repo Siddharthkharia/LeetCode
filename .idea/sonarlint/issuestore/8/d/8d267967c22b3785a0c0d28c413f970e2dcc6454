@@ -1,0 +1,24 @@
+
+t
+java:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(ôÈ“Òùÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+{
+java:S4165N"`Remove this useless assignment; "st" already holds the assigned value along all execution paths.(£ôœ«ÿÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÿˆ…ıÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÿˆ…ıÿÿÿÿ
+k
+java:S1149D"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ôÈ“Òùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ùÓ‹şÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Í½İˆ
+V	java:S125"<This block of commented-out lines of code should be removed.(‘Òšˆşÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ÿ½ Áıÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(´™ñÁ
+E	java:S106("+Replace this use of System.out by a logger.(€ÄŞ®ÿÿÿÿÿ
+E	java:S1069"+Replace this use of System.out by a logger.(÷ºâÿÿÿÿÿÿ
+E	java:S106:"+Replace this use of System.out by a logger.(Ãšİêùÿÿÿÿ
+Q	java:S125Q"<This block of commented-out lines of code should be removed.(°êşº

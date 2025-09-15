@@ -1,0 +1,23 @@
+
+D
+java:S1066'"/Merge this if statement with the enclosing one.(²×®
+E
+java:S1066T"/Merge this if statement with the enclosing one.(‰„Ÿ¬
+0
+java:S1220""Move this file to a named package.
+M
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÄÍ¸Íùÿÿÿÿ
+P	java:S125
+"<This block of commented-out lines of code should be removed.(Â¹è
+
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(…«¨
+>
+java:S1125/"(Remove the unnecessary boolean literals.(¦‡Ÿ™
+h
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(Ðàž
+>
+java:S1125\"(Remove the unnecessary boolean literals.(¦‡Ÿ™
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

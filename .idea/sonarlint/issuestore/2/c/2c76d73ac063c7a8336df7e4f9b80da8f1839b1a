@@ -1,0 +1,12 @@
+
+P
+java:S1854"5Remove this useless assignment to local variable "n".(‡È¿­ÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "n" local variable.(‡È¿­ÿÿÿÿÿ
+@
+java:S1481
+"*Remove this unused "count" local variable.(æÕ¿¼
+O
+java:S18549"9Remove this useless assignment to local variable "count".(¾´üö
+P
+java:S21239":Remove this increment or correct the code not to waste it.(¾´üö

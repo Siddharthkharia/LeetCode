@@ -1,0 +1,20 @@
+
+o
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÔ¼
+J
+java:S1066!"/Merge this if statement with the enclosing one.(œÊæÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+M
+java:S1135
+"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(çôÈ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÿÁÑö
+D
+java:S1940/")Use the opposite operator ("!=") instead.(“Õëüÿÿÿÿ
+m
+java:S3776;"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Éß×³ûÿÿÿÿ
+=
+java:S2201D"'The return value of "get" must be used.(Ô‰ã»
+M
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ
