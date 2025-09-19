@@ -2,7 +2,6 @@ package easy;
 
 public class firstOccurrence {
     public int strStr(String haystack, String needle) {
-        needle.
         int haylength=haystack.length();
         int needlelength = needle.length();
         if (haylength<needlelength)
