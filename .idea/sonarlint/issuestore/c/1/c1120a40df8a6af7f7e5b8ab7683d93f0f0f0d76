@@ -1,0 +1,12 @@
+
+t
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢ª¤Íıÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼î„Æ
+U
+java:S1854"?Remove this useless assignment to local variable "tempLetters".(¼î„Æ
+t
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(² Œøÿÿÿÿ
+F
+java:S1481"0Remove this unused "tempLetters" local variable.(¼î„Æ

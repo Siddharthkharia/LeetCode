@@ -10,7 +10,7 @@ public class ValidAnagram {
             count.put(i, count.getOrDefault(i,0)+1);
         }
         for (char i:t.toCharArray()){
-            count.put(i, count.getOrDefault((i,0) -1 );
+            count.put(i, count.getOrDefault(i,0) -1 );
         }
         for (int val:count.values())
         {
