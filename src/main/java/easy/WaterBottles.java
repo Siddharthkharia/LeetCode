@@ -14,16 +14,16 @@ public class WaterBottles {
         System.out.println("number of bottles can drink = " + numWaterBottles(numBottles,numExchange));
     }
 
-    public static int numWaterBottles(int numBottles, int numExchange) {
 
+    public static int numWaterBottles(int numBottles, int numExchange) {
         int sum =0;
         int emptyBottles =0;
         Map<String, Integer> memoMap = new HashMap<>();
-        return canDrink(numBottles, numExchange,emptyBottles,sum);
+        // return canDrink(numBottles, numExchange,emptyBottles,sum);
+        return canDrinkDP(numBottles, numExchange,emptyBottles,memoMap);
     }
 
-
-    private static int canDrink(int numBottles, int numExchange, int emptyBottles, int sum) {
+    public static int canDrink(int numBottles, int numExchange, int emptyBottles, int sum) {
 
         if(numBottles > 0){
             emptyBottles = emptyBottles+numBottles;
@@ -33,15 +33,11 @@ public class WaterBottles {
         }
         if(emptyBottles >= numExchange){
             int canExchange = emptyBottles/numExchange;
-
             numBottles = numBottles+canExchange;
-
             emptyBottles = emptyBottles%numExchange;
-
             System.out.println("number of empty bottles after exchange = " + emptyBottles);
             return canDrink(numBottles, numExchange,emptyBottles,sum);
         }
-
         return sum;
     }
 
@@ -67,5 +63,4 @@ public class WaterBottles {
 
         return result;
     }
-
 }
